@@ -1,0 +1,219 @@
+body{
+    background-image: linear-gradient(8deg, pink, plum,skyblue);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top:  50px;
+}
+.cal-container{
+    background: linear-gradient(darkcyan, black);
+    width: 300px;
+    height: 580px;
+    text-align: center;
+    border: 7px solid rgba(0, 139, 139, 0.168);
+    box-shadow:0 0 30px 20px  whitesmoke ;
+    border-radius: 10px;
+    margin-left: 50px;
+} 
+.clock{
+    position: relative;
+    top: 15px;
+    height: 40px;
+    width: 110px;
+    border-radius: 4px;
+    left: 170px;
+    background: whitesmoke;
+    text-align: center;
+}
+#time{
+    color: black;
+    font-weight: bold;
+    position: relative;
+    width: 100px;
+    background-color: #f9004d;
+    height: 25px;
+    top: 3px;
+    left: 3px;
+    padding-top: 6px;
+    border: 2px solid pink;
+    border-radius: 4px;
+}
+.display{
+background-color:  whitesmoke;
+height: 45px;
+position: relative;
+display: inline-block;
+top: 30px;
+width: 265px;
+border-radius: 5px;
+}
+#screen{
+    position: relative;
+    height: 35px;
+    top: 2px;
+    width: 254px;
+    background-color: pink;
+    text-align: right;
+    font-size: 1.5em;
+    border-radius: 5px;
+    border: 1px solid black;
+}
+.keys{
+    position: relative;
+    top: 25px;
+}
+.btnss{
+    color: white;
+    background-color: darkseagreen;
+    cursor: pointer;
+    width: 40px;
+    margin: 2px 2px 2px 4px;
+    font-size: 0.9em;
+    text-align: center;
+    border: 2px solid rgba(255, 255, 0, 0.536);
+    border-top: 2px solid rgba(64, 224, 208, 0.136);
+    padding: 3px;
+    border-radius: 7px;
+}
+.btnss:active{
+    border-bottom: 1.5px solid darkolivegreen ;
+    border-top: 2.5px solid darkgreen;
+}
+button{
+    color: black;
+    background-color: darksalmon;
+    cursor: pointer;
+    width: 40px;
+    margin: 2px 2px 2px 4px;
+    font-size: 0.9em;
+    text-align: center;
+    border: 1px solid paleturquoise;
+    border-top: 2px solid turquoise;
+    padding: 3px;
+}
+.btn{
+    color: black;
+    background-color: darksalmon;
+    cursor: pointer;
+    width: 40px;
+    margin: 2px 2px 2px 4px;
+    font-size: 0.9em;
+    text-align: center;
+    border: 1px solid paleturquoise;
+    border-top: 2px solid turquoise;
+    padding: 3px;
+}
+.btn-sign{
+    background-color: rgba(255, 20, 145, 0.319);
+    color: #fff;
+    border-radius: 12px;
+    border-top: 2px solid wheat;
+    border-bottom: 1px solid white;
+}
+.btn-sign:active{
+    border-bottom: 2px solid wheat;
+    border-top: 1px solid white;
+}
+.btn-num{
+    background-color: rgba(221, 160, 221, 0.728);
+    color: black;
+    font-size: 1.1em;
+    border-radius: 6px;
+    border-bottom:  1px solid plum;
+    border-top: 2px solid pink;
+}
+.btn-num:active{
+    border-bottom: 2px solid pink;
+    border-top: 1px solid plum;
+}
+.btn-red{
+    background-color: #f9004d;
+    padding: 4px;
+    color: black;
+    font-size: 1.1em;
+    border-radius: 4px;
+    border-bottom:  1px solid palevioletred;
+    border-top:  2px solid #f9004d;
+    font-weight: 500;
+}
+.btn-red:active{
+    border-bottom: 2px solid #f9004d;
+    border-top: 1px solid palevioletred;
+}
+.btn-opera{
+    background-color: palevioletred;
+    color: black;
+    padding: 4px;
+    font-size: 1.1em;
+    border-radius: 5px;
+    border-bottom: 1px solid  rgba(221, 160, 221, 0.728) ;
+    border-top: 2.5px solid  rgba(221, 160, 221, 0.728);
+}
+.btn-opera:active{
+    border-bottom: 2.5px solid  rgba(221, 160, 221, 0.728);
+    border-top: 1px solid  rgba(221, 160, 221, 0.728);
+}
+ /* @media screen and (max-width: 768px) {
+    .cal-container{
+        width: 100%;
+        height: auto;
+        flex-direction: column;
+    }
+     .cal-container > .clock { 
+        height: auto;
+        margin-top: 10px;
+    }
+     .cal-container > .clock > .display,.cal-container > .clock > .keys { 
+        width: 100%;
+        margin-left: 0;
+    }
+    .cal-container > .clock > .keys  > button {
+        width: 100px;
+    }
+    .cal-container > .clock > .box-one-top > #box-one-bottom > button {
+        width: 100px;
+    }
+    .main-box > .box-one > .box-one-top > #box-one-middle {
+        height: auto;
+    }
+    .main-box > .box-one > .box-one-top > #box-one-middle > input[type=text] {
+        width: 100%;
+        height: 100px;
+    }
+ } */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
